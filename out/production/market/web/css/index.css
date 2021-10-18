@@ -1,0 +1,129 @@
+/* CSS Document */
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, html, 
+input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+	list-style: none;
+}
+	 html {
+font-size:62.5%;
+}
+
+a{
+	-webkit-tap-highlight-color:transparent;
+
+}
+	
+	
+	
+	
+	
+
+
+.mainMid{
+	margin: 0px auto;
+	padding: 0px;
+	height: auto;
+	width: 100%;	
+	
+}
+	
+	
+.daming_class{
+	
+	margin: 0.4rem;
+	padding: 0.5rem;
+	width: 22%;
+	height: auto;
+	background: yellow;	
+	border-right: 0.1rem solid #e0e0e0;
+	display: inline-block;
+	vertical-align: top;
+	
+}
+	
+.daming_class ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		line-height: normal;
+	}
+.daming_class li {
+	margin-bottom: 2rem;	
+	}
+.daming_class li ul {
+	padding-left:
+		0.5rem;
+	}
+.daming_class li li {
+	margin: 0;
+	padding: 0.5rem 1rem;
+	border-bottom: 1px dotted #D6C9BF; 
+	display: inline-block;
+	}
+.daming_class li h2 {
+	margin: 0 0 2em 0;
+	padding: 1.5rem 0  0.5rem 1.5rem; 
+	height: 1rem;	
+	text-transform:lowercase;
+	font-size: 1.4rem;
+font-weight:bold;
+	letter-spacing: -1px;
+	}
+.daming_class li p {
+	padding: 0 1rem;
+	}
+.daming_class a { 
+	text-decoration:
+		none;
+	}
+.daming_class a:hover{
+	background:#5CD67B; 
+	color:green;
+	}
+
+.daming_ClassDetail{		
+	margin: 0.4rem;
+	padding: 0.2rem;
+	width: 70%;
+	height: auto;
+	background: green;
+	display: inline-block;
+	position: relative;
+	text-align: center;	
+	vertical-align: top;
+}
+
+
+.daming_ClassDetail figure{		
+	margin: 0.5rem ;
+	width: 10rem;
+	height: auto;
+	border: 0.1rem solid black;   
+	display: inline-block;
+	padding: 0.3rem;
+	text-align: left;
+	position: relative;		
+}
+.daming_ClassDetail figure img{
+	vertical-align: middle;
+	width: 9rem;
+	height: 10rem;
+}
+.daming_ClassDetail figcaption{
+	height: auto;
+}
+.daming_ClassDetail .title{
+	font-size: 1rem;
+}
+
+
+
+
+
+
+
+	

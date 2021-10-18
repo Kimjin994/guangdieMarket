@@ -1,0 +1,147 @@
+/* CSS Document */
+
+blockquote, body, button, code, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, html, 
+input, legend, li, ol, p, pre, td, textarea, th, ul {
+    margin: 0;
+    padding: 0;
+}
+ul,li {
+	list-style: none;
+}
+	 html {
+font-size:62.5%;
+}
+     body{
+         font-family: "Microsoft YaHei";
+     }
+ a {
+            text-decoration: none;
+            color: #252525;
+            -webkit-tap-highlight-color:transparent;
+        }
+
+       
+        .nav {
+            height: 45px;
+            width: 100%;
+            background-color: #fff;
+            position: fixed;
+            z-index: 99;
+            opacity: 999;
+        }
+
+        .detail_anchor {
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: flex;
+            height: 44px;
+            line-height: 44px;
+            font-size: 14px;
+            color: #666;
+            box-shadow: 0 1px 6px rgba(0, 0, 0, .1);
+            justify-content: space-evenly;
+        }
+
+        .header-new-title {
+            margin: 0 70px;
+            height: 44px;
+            font-size: 16px;
+            line-height: 44px;
+            text-align: center;
+            color: #333;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+        }
+
+        .active {
+            color: #e4393c;
+        }
+
+        .de_btn_bar{
+            height: 50px;
+            width: 100%;
+            background-color: #fff;
+            position: fixed;
+            z-index: 99;
+            bottom: 0;
+            }
+        .btn_group{
+            /* display: flex;
+            justify-content: space-evenly; */
+            height: 100%;
+        }
+        .btn_group_item{
+            display: inline-block;
+            height: 100%;
+            width: 25%;
+            margin-right: -4px;
+            padding: 0;
+            text-align: center;
+            line-height: 50px;
+        }
+        .add_cart{
+            color: #fff;
+            background: linear-gradient(138deg,#ffa600,#ffb000 77%,#ffbc00);
+        }
+        .now_buy{
+            color: #fff;
+            background: linear-gradient(-41deg,#ff4f18,#ff2000 24%,#f10000);
+        }
+
+
+.recommendFig figure{
+    margin: 5px ;
+    margin-left: 20px;
+    width: 25%;
+    height: auto;
+    border: 1px solid black;
+    display: inline-block;
+    padding: 3px;
+    text-align: left;
+    position: relative;
+    background: #a6e1ec;
+}
+.recommendFig figure img{
+    vertical-align: middle;
+    width: 80px;
+    height: 100px;
+}
+.recommendFig figcaption{
+    height: auto;
+}
+
+.recommendFig  title{
+    font-size: 10px;
+}
+
+
+
+.goods .goods-name{
+	font:700 16px Arial, "Microsoft yahei";
+}
+
+.goods .goods-price{
+	font-size: 18px;
+	color: red;	
+}
+.goods .goods-author{
+	margin: 5px 3px;
+	font-size: 10px;
+	opacity: 50%;
+}
+.comment .comment-header{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.recommend-header{
+    font-size: medium;
+}
+
+
+
+
+
+
+
